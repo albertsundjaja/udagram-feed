@@ -11,6 +11,7 @@ before_script:
   - echo "no tests"
 
 script:
+    ## comment
   - docker --version 
   - docker build -t udagram-feed .
   - docker tag udagram-feed grandia3/udagram-feed:latest
